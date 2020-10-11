@@ -18,6 +18,7 @@ void szamkitalalo()
         if(kitalalando < bemenet)
         {
             printf("Nem jo, tippelj kisebbet\n");
+            break;
         }
         if(kitalalando > bemenet)
         {
