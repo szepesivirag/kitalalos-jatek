@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdint.h>
+#include <stdlib.h>
 
 void szamkitalalo()
 {
@@ -18,7 +19,6 @@ void szamkitalalo()
         if(kitalalando < bemenet)
         {
             printf("Nem jo, tippelj kisebbet\n");
-            break;
         }
         if(kitalalando > bemenet)
         {
